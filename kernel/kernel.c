@@ -3,9 +3,14 @@
 #include <string.h>
 #include <readline/readline.h>
 #include <readline/history.h>
+#include <sys/types.h>
 
 #include "system.h"
+#include "fork_call.h"
+#include "ipc_call.h"
+
 void print_minios(char* str);
+
 
 int main() {
     print_minios("[MiniOS SSU] Hello, World!");
@@ -19,9 +24,17 @@ int main() {
         if (strcmp(input,"exit") == 0) {
             break;
         }
-
+        
         if (strcmp(input,"minisystem") == 0){
             minisystem();
+        }
+        
+        else if (strcmp(input, "fork_call") == 0){
+            fork_call();
+        }
+       
+        else if (strcmp(input, "ipc_call") == 0){
+            ipc_call();
         }
         else system(input);
     }
