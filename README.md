@@ -17,5 +17,7 @@ O   ├── basic.h             # 헤더 형식
 O   └── system.h            # 드라이버 헤더 파일
 └── scripts/                # 빌드 및 유틸리티 스크립트  
 O   └── build.sh            # 빌드 스크립트  
-
+├── sched.c                 # weighted round-robin scheduling 구현 C파일 
+├── thread.h                # threading 구현 헤더파일 
+├── m.c                     # thread.h 파일이 실제로 동작 되는지 확인하는 C파일  
 
