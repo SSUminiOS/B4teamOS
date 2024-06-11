@@ -1,17 +1,28 @@
 # miniOS
 
 miniOS-project/
-├── sched.c                 # weighted round-robin scheduling 구현 C파일 
+├── sched.c                 # weighted round-robin scheduling 구현 C파일
+
 ├── thread.h                # threading 구현 헤더파일 
+
 ├── main.c                  # 실제 miniOS 시연 C파일
-├── memory.c                # miniOS에서 사용한 memory management C파일  
-├── memory.h                # miniOS에서 사용한 memory management 헤더파일  
-├── process.c               # miniOS에서 사용한 process C파일  
+
+├── memory.c                # miniOS에서 사용한 memory management C파일 
+
+├── memory.h                # miniOS에서 사용한 memory management 헤더파일 
+
+├── process.c               # miniOS에서 사용한 process C파일
+
 ├── process.h               # miniOS에서 사용한 process 헤더파일 
-├── schedule.c              # miniOS에서 사용한 scheduling C파일  
+
+├── schedule.c              # miniOS에서 사용한 scheduling C파일
+
 ├── schedule.h              # miniOS에서 사용한 scheduling 헤더파일 
+
 ├── stats.c                 # miniOS에서 사용한 UI C파일  
+
 ├── stats.h                 # miniOS에서 사용한 UI 헤더파일 
+
 ├── README.md               # 프로젝트 설명 및 사용 방법 문서  
 ├── Makefile                # 전체 프로젝트 빌드 자동화를 위한 메이크파일  
 ├── boot/                   # 부트로더 소스 코드  
