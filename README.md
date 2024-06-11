@@ -24,6 +24,8 @@ miniOS-project/
 
 ├── stats.h                 # miniOS에서 사용한 UI 헤더파일 
 
+├── booting.c               # booting 화면 출력 C파일
+
 ├── README.md               # 프로젝트 설명 및 사용 방법 문서  
 
 ├── Makefile                # 전체 프로젝트 빌드 자동화를 위한 메이크파일 
@@ -43,3 +45,5 @@ O   └── system.h            # 드라이버 헤더 파일
 └── scripts/                # 빌드 및 유틸리티 스크립트  
 O   └── build.sh            # 빌드 스크립트  
 
+# miniOS 이용방법
+gcc -o miniOS main.c memory.c schedule.c process.c stats.c -lm
