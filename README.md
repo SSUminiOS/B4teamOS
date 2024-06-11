@@ -1,6 +1,7 @@
 # miniOS
 
 miniOS-project/
+
 ├── sched.c                 # weighted round-robin scheduling 구현 C파일
 
 ├── thread.h                # threading 구현 헤더파일 
@@ -24,7 +25,9 @@ miniOS-project/
 ├── stats.h                 # miniOS에서 사용한 UI 헤더파일 
 
 ├── README.md               # 프로젝트 설명 및 사용 방법 문서  
-├── Makefile                # 전체 프로젝트 빌드 자동화를 위한 메이크파일  
+
+├── Makefile                # 전체 프로젝트 빌드 자동화를 위한 메이크파일 
+
 ├── boot/                   # 부트로더 소스 코드  
 O   └── boot.asm            # 부트로더 어셈블리 코드  
 ├── kernel/                 # 커널 소스 코드  
