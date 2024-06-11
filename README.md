@@ -19,5 +19,12 @@ O   └── system.h            # 드라이버 헤더 파일
 O   └── build.sh            # 빌드 스크립트  
 ├── sched.c                 # weighted round-robin scheduling 구현 C파일 
 ├── thread.h                # threading 구현 헤더파일 
-├── m.c                     # thread.h 파일이 실제로 동작 되는지 확인하는 C파일  
-
+├── main.c                  # 실제 miniOS 시연 C파일
+├── memory.c                # miniOS에서 사용한 memory management C파일  
+├── memory.h                # miniOS에서 사용한 memory management 헤더파일  
+├── process.c               # miniOS에서 사용한 process C파일  
+├── process.h               # miniOS에서 사용한 process 헤더파일 
+├── schedule.c              # miniOS에서 사용한 scheduling C파일  
+├── schedule.h              # miniOS에서 사용한 scheduling 헤더파일 
+├── stats.c                 # miniOS에서 사용한 UI C파일  
+├── stats.h                 # miniOS에서 사용한 UI 헤더파일 
