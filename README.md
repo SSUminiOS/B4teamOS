@@ -3,9 +3,13 @@
 miniOS-project/
 
 ├── sched.c/                            # 발표 및 보고서 자료
+
 O   ├──  4조_운영체제_최종발표자료. pptx  # 발표자료 ppt
+
 O   ├──  4조_운영체제_최종보고서.docx     # 보고서 docx파일
+
 O   └──  4조_운영체제_최종보고서.pdf      # 보고서 pdf파일
+
 ├── sched.c                             # weighted round-robin scheduling 구현 C파일
 
 ├── thread.h                            # threading 구현 헤더파일 
