@@ -69,4 +69,4 @@ O   └── build.sh                        # 빌드 스크립트
 gcc -o miniOS main.c memory.c schedule.c process.c stats.c -lm
 
 # booting.c 이용방법
-gcc -o booting main.c booting.c -lm
+gcc -o booting booting.c -lm
