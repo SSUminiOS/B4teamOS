@@ -2,7 +2,7 @@
 ## 수행목표
 user 모드에서 명령을 하면 kernel에서 처리하는 작업을 직접 설계하는 Mini OS 제작
 
-# 현 파일들
+# 작업 파일들
 miniOS-project/
 
 ├── sched.c/                            # 발표 및 보고서 자료
