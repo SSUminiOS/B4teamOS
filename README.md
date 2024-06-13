@@ -96,3 +96,13 @@ gcc -o miniOS main.c memory.c schedule.c process.c stats.c -lm
 
 # booting.c 이용방법
 gcc -o booting booting.c -lm
+
+# 구현 결과
+## thread
+![image](https://github.com/GProjectdev/B4teamOS/assets/57485666/c46114ba-4158-4751-9ca5-9758ecebf42d)
+
+## scheduling
+![image](https://github.com/GProjectdev/B4teamOS/assets/57485666/d6343df8-ba1c-4b50-bb18-6f255a0d10c9)
+
+## 코드 병합 및 메모리, UI
+![image](https://github.com/GProjectdev/B4teamOS/assets/57485666/03e62c30-a9f7-4af6-8c52-e907e4e94e6b)
